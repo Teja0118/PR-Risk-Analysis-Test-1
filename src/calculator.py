@@ -8,7 +8,7 @@ def add(*args):
     """
     return functools.reduce(operator.add, args)
 
-def subract(a, b):
+def subtract(a, b):
     return a - b
 
 def multiply(a, b):
